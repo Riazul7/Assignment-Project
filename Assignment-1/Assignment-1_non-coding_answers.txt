@@ -1,0 +1,10 @@
+Q: What is the purpose of using nested if-else statements in Python?
+Ans: c) To perform different actions based on different conditions.
+Q: Which loop in Python allows you to iterate over a sequence of elements?
+Ans: a) for loop
+Q: How do you add an element to the end of a list in Python?
+Ans:b) list.append(element)
+Q: Which keyword is used to exit a loop prematurely in Python?
+Ans:b) break
+Q: What is the purpose of the range() function in Python?
+Ans:a) To generate a sequence of numbers.

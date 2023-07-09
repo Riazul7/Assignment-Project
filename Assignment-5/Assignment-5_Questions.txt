@@ -1,0 +1,20 @@
+Task 1: Map Transformation
+Write a Python program that takes a list of integers as input and uses the map() function to transform each element of the list by multiplying it with 2. The program should return a new list containing the transformed elements.
+
+Task 2: Custom Exception Handling
+Write a Python function called divide_numbers() that takes two numbers as input and performs division. Handle the following exceptions:
+
+If the denominator is zero, raise a custom exception called ZeroDenominatorException with an appropriate error message.
+If any other exception occurs during the division operation, raise a generic exception called DivisionException with a generic error message.
+Task 3: Iteration and Filtering
+Write a Python program that takes a list of strings as input. Using a loop or list comprehension, iterate over the list and filter out strings that have more than 5 characters. The program should return a new list containing the filtered strings.
+
+Task 4: Advanced Exception Handling
+Write a Python function called calculate_average() that takes a list of numbers as input and calculates their average. Handle the following exceptions:
+
+If the input list is empty, raise a custom exception called EmptyListException with an appropriate error message.
+If any of the elements in the list is not a number (e.g., string, boolean), raise a custom exception called InvalidElementException with an appropriate error message.
+Task 5: Nested Iteration
+Write a Python program that takes a list of lists as input, where each inner list represents a student's grades for different subjects. Calculate the average grade for each student and return a dictionary where the keys are the student names (assume unique names) and the values are their corresponding average grades.
+
+Note:  write modular and well-documented code. They should use appropriate variable names and include comments to explain their code's logic.

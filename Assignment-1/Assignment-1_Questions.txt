@@ -1,0 +1,81 @@
+What is the purpose of using nested if-else statements in Python?
+
+a) To repeat a block of code a specific number of times.
+
+b) To store multiple values in a single variable.
+
+c) To perform different actions based on different conditions.
+
+d) To create reusable blocks of code.
+
+ 
+
+Which loop in Python allows you to iterate over a sequence of elements?
+
+a) for loop
+
+b) while loop
+
+c) if loop
+
+d) do-while loop
+
+ 
+
+How do you add an element to the end of a list in Python?
+
+a) list.insert(index, element)
+
+b) list.append(element)
+
+c) list.extend(element)
+
+d) list.add(element)
+
+ 
+
+Which keyword is used to exit a loop prematurely in Python?
+
+a) exit
+
+b) break
+
+c) continue
+
+d) return
+
+ 
+
+What is the purpose of the range() function in Python?
+
+a) To generate a sequence of numbers.
+
+b) To check if a value exists in a list.
+
+c) To sort a list in ascending order.
+
+d) To concatenate two or more strings.
+
+ 
+
+Coding questions:
+
+ 
+
+Write a Python code snippet to find the sum of all numbers from 1 to 10 (inclusive).
+
+ 
+
+Write a Python function called find_even_numbers that takes a list of integers as input and returns a new list containing only the even numbers from the input list.
+
+ 
+
+Write a Python code snippet to reverse a given string. For example, if the input is "Hello, World!", the output should be "!dlroW ,olleH".
+
+ 
+
+Write a Python function called count_vowels that takes a string as input and returns the number of vowels (a, e, i, o, u) in the string. Ignore case sensitivity.
+
+ 
+
+Write a Python code snippet to find the maximum number from a given list of numbers

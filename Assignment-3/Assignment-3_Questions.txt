@@ -1,0 +1,9 @@
+Description: In this assignment, you will work with dictionaries and JSON data. You will implement various operations on dictionaries, including insertion, deletion, searching, and manipulation. Additionally, you will work with JSON data, reading and writing JSON files, and performing operations on the data using dictionaries.
+Q1:Create an empty dictionary called student_records.
+Q2.Implement a function add_student that takes the following parameters: name, age, and grade. This function should add a new student record to the student_records dictionary. The student record should contain the student's name, age, and grade.
+Q3:Implement a function remove_student that takes the student's name as a parameter and removes the corresponding student record from the student_records dictionary.
+Q4:Implement a function search_student that takes the student's name as a parameter and searches for the student record in the student_records dictionary. If found, the function should return the student's name, age, and grade. If not found, it should return an appropriate message.
+Q5:Implement a function update_grade that takes the student's name and a new grade as parameters and updates the grade of the corresponding student record in the student_records dictionary.
+Q6:Convert the student_records dictionary to JSON format and save it to a file named "student_data.json".
+Q7:Read the "student_data.json" file, convert the JSON data back to a dictionary, and assign it to a variable called data.
+Q8:Print the data dictionary.

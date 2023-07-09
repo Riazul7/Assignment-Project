@@ -1,0 +1,172 @@
+Python Functions on Collections - Assignment
+
+Total Marks: 100
+
+Instructions:
+
+This exam consists of 20 questions, each worth 5 marks.
+Write Python functions to solve each question.
+Read each question carefully and provide your solution in the form of a function.
+Ensure that your functions follow the specified input/output format.
+Write clean, well-documented code, and use proper variable names.
+Test your functions with sample inputs to verify their correctness.
+Submit a Python file containing all your functions.
+Question 1: (5 marks)
+
+Write a function named count_occurrences that takes a list of elements and returns a dictionary containing the count of each unique element.
+
+Sample Input: count_occurrences([1, 2, 3, 2, 1, 3, 3, 4, 5])
+
+Sample Output: {1: 2, 2: 2, 3: 3, 4: 1, 5: 1}
+
+Question 2: (5 marks)
+
+Write a function named remove_duplicates that takes a list and returns a new list with duplicate elements removed, while preserving the order of the original list.
+
+Sample Input: remove_duplicates([1, 2, 3, 2, 1, 3, 3, 4, 5])
+
+Sample Output: [1, 2, 3, 4, 5]
+
+Question 3: (5 marks)
+
+Write a function named find_common_elements that takes two lists and returns a list containing the common elements between them.
+
+Sample Input: find_common_elements([1, 2, 3, 4, 5], [4, 5, 6, 7, 8])
+
+Sample Output: [4, 5]
+
+Question 4: (5 marks)
+
+Write a function named reverse_dictionary that takes a dictionary as input and returns a new dictionary where the keys and values are swapped.
+
+Sample Input: reverse_dictionary({'a': 1, 'b': 2, 'c': 3})
+
+Sample Output: {1: 'a', 2: 'b', 3: 'c'}
+
+Question 5: (5 marks)
+
+Write a function named flatten_list that takes a nested list as input and returns a flattened version of the list (i.e., a single list containing all elements from the nested list).
+
+Sample Input: flatten_list([[1, 2, 3], [4, 5], [6, 7, 8, 9]])
+
+Sample Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Question 6: (5 marks)
+
+Write a function named merge_dictionaries that takes two dictionaries and returns a new dictionary that contains all the key-value pairs from both dictionaries.
+
+Sample Input: merge_dictionaries({'a': 1, 'b': 2}, {'c': 3, 'd': 4})
+
+Sample Output: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+
+Question 7: (5 marks)
+
+Write a function named find_unique_elements that takes multiple lists as input and returns a list containing only the unique elements from all the lists.
+
+Sample Input: find_unique_elements([1, 2, 3], [2, 3, 4], [3, 4, 5, 6])
+
+Sample Output: [1, 2, 3, 4, 5, 6]
+
+Question 8: (5 marks)
+
+Write a function named sort_dictionary_by_value that takes a dictionary as input and returns a new dictionary where the keys are sorted based on their corresponding values.
+
+Sample Input: sort_dictionary_by_value({'a': 3, 'b': 1, 'c': 2})
+
+Sample Output: {'b': 1, 'c': 2, 'a': 3}
+
+Question 9: (5 marks)
+
+Write a function named remove_empty_lists that takes a nested list as input and returns a new list with all empty lists removed.
+
+Sample Input: remove_empty_lists([1, [], [2, 3], [], [4], []])
+
+Sample Output: [1, [2, 3], [4]]
+
+Question 10: (5 marks)
+
+Write a function named count_element_frequency that takes a list as input and returns a dictionary containing the frequency of each element in the list.
+
+Sample Input: count_element_frequency([1, 2, 2, 3, 3, 3, 4, 4, 4, 4])
+
+Sample Output: {1: 1, 2: 2, 3: 3, 4: 4}
+
+Question 11: (5 marks)
+
+Write a function named split_list_by_value that takes a list and a value as input and returns two lists: one containing all elements less than the given value, and the other containing all elements greater than or equal to the given value.
+
+Sample Input: split_list_by_value([1, 2, 3, 4, 5], 3)
+
+Sample Output: ([1, 2], [3, 4, 5])
+
+Question 12: (5 marks)
+
+Write a function named find_longest_word that takes a list of words as input and returns the longest word in the list.
+
+Sample Input: find_longest_word(['apple', 'banana', 'cherry', 'durian'])
+
+Sample Output: 'banana'
+
+Question 13: (5 marks)
+
+Write a function named flatten_dictionary that takes a nested dictionary as input and returns a flattened dictionary where the keys are concatenated using dot notation.
+
+Sample Input: flatten_dictionary({'a': 1, 'b': {'c': 2, 'd': {'e': 3}}})
+
+Sample Output: {'a': 1, 'b.c': 2, 'b.d.e': 3}
+
+Question 14: (5 marks)
+
+Write a function named get_list_intersection that takes multiple lists as input and returns a list containing the elements that are present in all the input lists.
+
+Sample Input: get_list_intersection([1, 2, 3], [2, 3, 4], [3, 4, 5, 6])
+
+Sample Output: [3]
+
+Question 15: (5 marks)
+
+Write a function named get_key_with_max_value that takes a dictionary as input and returns the key with the maximum value.
+
+Sample Input: get_key_with_max_value({'a': 3, 'b': 1, 'c': 2})
+
+Sample Output: 'a'
+
+Question 16: (5 marks)
+
+Write a function named split_string_by_length that takes a string and a length as input and returns a list of substrings, each of the specified length.
+
+Sample Input: split_string_by_length('abcdefgh', 3)
+
+Sample Output: ['abc', 'def', 'gh']
+
+Question 17: (5 marks)
+
+Write a function named find_common_characters that takes multiple strings as input and returns a list containing the common characters present in all the input strings.
+
+Sample Input: find_common_characters('apple', 'banana', 'cherry')
+
+Sample Output: ['a']
+
+Question 18: (5 marks)
+
+Write a function named count_list_elements that takes a list as input and returns a dictionary containing the count of each unique element, along with their percentage in the list.
+
+Sample Input: count_list_elements([1, 2, 2, 3, 3, 3, 4, 4, 4, 4])
+
+Sample Output: {1: (1, 10.0), 2: (2, 20.0), 3: (3, 30.0), 4: (4, 40.0)}
+
+Question 19: (5 marks)
+
+Write a function named remove_duplicate_characters that takes a string as input and returns a new string with duplicate characters removed, while preserving the order of the original string.
+
+Sample Input: remove_duplicate_characters('banana')
+
+Sample Output: 'ban'
+
+Question 20: (5 marks)
+
+Write a function named find_missing_elements that takes two lists as input: one containing all the elements and another containing some missing elements. The function should return a list of the missing elements.
+
+Sample Input: find_missing_elements([1, 2, 3, 4, 5], [2, 4])
+
+Sample Output: [1, 3, 5]

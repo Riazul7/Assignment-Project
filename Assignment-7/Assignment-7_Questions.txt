@@ -1,0 +1,20 @@
+1. Write a Python program that creates two threads and prints "Hello, World!" from each thread.
+2. Create a program that uses threading to calculate the sum of all even numbers from 1 to 100. Print the result.
+3. Write a Python program that spawns three threads. Each thread should print its thread ID.
+4. Implement a multithreaded program that calculates the factorial of a given number. Prompt the user to enter the number and print the result.
+5. Create a program that simulates a ticket booking system using threading. Implement a class called TicketBooking with a method book_ticket() that accepts the name of the person booking the ticket and the number of tickets to book. Use threading to handle concurrent ticket bookings.
+6. Write a Python program that uses threading to download multiple images from a given list of URLs concurrently.
+7. Implement a producer-consumer scenario using threading. Create a shared buffer that can hold a maximum of 10 items. The producer should produce items and add them to the buffer, while the consumer should consume items from the buffer.
+8. Create a program that demonstrates the use of thread synchronization primitives such as locks or semaphores to avoid race conditions.
+9. Write a Python program that spawns five threads and calculates the sum of the squares of numbers from 1 to 10. Each thread should handle a portion of the numbers.
+10. Implement a program that measures the execution time of a function using threading. The program should prompt the user to enter the number of threads and the function to be executed.
+11. Create a Python program that utilizes threading to perform matrix multiplication. Prompt the user to enter the dimensions of two matrices and print the resulting product matrix.
+12. Write a program that uses threading to concurrently process a list of files. Each thread should calculate the file size and print the name of the file along with its size
+13. Implement a program that simulates a simple chat system using threading. Multiple users can send messages concurrently, and the messages should be displayed in the correct order.
+14. Create a Python program that spawns three threads. Each thread should count from 1 to 10, printing each number with a delay of 0.5 seconds between them.
+15. Write a program that uses threading to perform a parallel search in a list of numbers. Prompt the user to enter a target number and the list of numbers to search.
+16. Implement a program that reads data from multiple sensors concurrently using threading. Each sensor should be represented by a thread, and the program should print the sensor data as it becomes available.
+17. Create a program that uses threading to perform a parallel sorting of a given list of numbers. Prompt the user to enter the list of numbers and print the sorted list.
+18. Write a Python program that uses threading to simulate a traffic signal. Each traffic light (red, yellow, green) should be represented by a thread, and they should alternate their states according to a predefined pattern.
+19. Implement a program that calculates the sum of prime numbers up to a given limit using threading. Prompt the user to enter the limit and print the result.
+20. Create a Python program that demonstrates the use of thread pools. The program should use a thread pool to process a list of tasks, where each task represents a function to be executed.

@@ -1,0 +1,33 @@
+Python Programming Assignment
+
+Write a Python program that parses the given moral story text and performs the following tasks:
+
+Q1: Word Count: Write a function called count_words that takes the story text as input and returns the total number of words in the text.
+
+Q2: Unique Word Count: Write a function called count_unique_words that takes the story text as input and returns the number of unique words in the text. Ignore punctuation and consider words in a case-insensitive manner.
+
+Q3: Word Frequency: Write a function called word_frequency that takes the story text as input and returns a dictionary where the keys are the unique words in the text and the values are their corresponding frequencies (number of occurrences).
+
+Q4: Most Common Words: Write a function called most_common_words that takes the story text and an integer n as input and returns a list of the n most common words in the text, along with their frequencies. Ignore punctuation and consider words in a case-insensitive manner.
+
+Q5: Replace Words: Write a function called replace_words that takes the story text and two words word1 and word2 as input, and replaces all occurrences of word1 in the text with word2. The function should return the modified text.
+
+Q6: User Input: Prompt the user to enter a word and display whether the word is present in the story text or not.
+
+Moral Story: "In a small village, there was a boy whose mother was very keen on academic studies. Every morning, she encouraged him to read books of high academic value. The boy diligently read the books and studied them.
+
+One day, the boy wanted to go on a trip for some relaxation. To keep his books safe, he used a bag to carry them. He collected his books and placed them carefully in the bag. While at a tourist spot, the boy felt at ease and placed his bag among the beautiful flowers in a garden.
+
+Unbeknownst to him, a large bird flew by and snatched his bag, mistaking it for a nest. The boy realized with great concern that he had lost his books. He realized that his negligence had caused this unfortunate incident.
+
+The boy learned a valuable lesson that day — the power of his words and actions. He understood that his carelessness had led to the loss of his precious books. From that day forward, he vowed to be more responsible and cautious in his actions, realizing that even small acts of negligence could have significant consequences.
+
+This story teaches us the importance of being mindful of our words and actions. It reminds us that our choices and behavior can have lasting effects and that it is crucial to be responsible and attentive in everything we do."
+
+You can provide the necessary function definitions and ask the students to complete the implementation of these functions. Additionally, you can ask them to test their functions using the given story text or their inputs.
+
+Note: Encourage students to write modular and well-documented code. They should use appropriate variable names and include comments to explain their code's logic.
+
+This programming assignment allows students to practice string manipulation, parsing, counting words, working with dictionaries, and user input in Python. Feel free to modify or add more tasks as per your requirements.
+
+I hope this updated version of the Python programming assignment meets your needs!

@@ -1,0 +1,5 @@
+Question 1 Write a program that reads a text file containing a list of numbers, and outputs the sum of all the even numbers in the list. The program should ignore any non-numeric entries in the file. 
+
+Question 2 You are given a list of integers. Write a program that finds the longest subsequence of consecutive numbers in the list. A subsequence is considered consecutive if the numbers are in increasing order without any gaps. The program should output the length of the longest consecutive subsequence.  
+
+Question 3 You have been given a list of strings representing a paragraph. Write a program that counts the frequency of each word in the paragraph and outputs the word with the highest frequency. The program should ignore any punctuation marks and consider the words case-insensitively.
