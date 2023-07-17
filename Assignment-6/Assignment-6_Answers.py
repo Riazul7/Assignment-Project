@@ -88,15 +88,12 @@ print(count_element_frequency([1,2,2,3,3,3,4,4,4,4]))
 def split_list_by_value(given_list,number):
     l1=[]
     l2=[]
-    l3=[]
     for i in given_list:
         if i<number:
             l1.append(i) # Append element in l1 if it is less than number
         else:
             l2.append(i) # Append element in l2 if it is greater than number
-    l3.append(l1) # Append l1 to l3
-    l3.append(l2) # Append l2 to l3
-    return l3
+    return l1,l2
 print('Two lists: one containing all elements less than the given value, and the other containing all elements greater than or equal to the given value is:')
 print(split_list_by_value([1,2,3,4,5],3))
 def find_longest_word(given_list):
