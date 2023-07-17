@@ -9,7 +9,7 @@ def remove_punc(s):
     return s not in string.punctuation # Remove punctuation
 s = ''.join(filter(remove_punc, s))
 def most_common_words(str,n):
-    c= Counter([i for i in str.split() if i.isalpha()])
+    c= Counter([i.lower() for i in str.split() if i.isalpha()])
     m=c.most_common(n) # List of the n most common words in the text, along with their frequencies
     return m
 n=int(input("How many most common words data need to be shown? "))
